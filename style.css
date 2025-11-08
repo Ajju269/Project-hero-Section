@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #F8F6F3;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+nav
+{
+    background-color: #ebfafb;
+    display: flex;
+    gap:250px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+.list
+{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+
+.user
+{
+   font-size: 1.2rem;
+   font-family: "Momo Trust Display", sans-serif;
+   background-color: #76c1ff;
+   padding: 20px;
+   border-radius: 30px;
+   transition: 1s ease-in-out;
+    
+}
+.user:hover
+{
+    background-color: #29d3e6;
+    transform:scale(1.07) ;
+
+}
+.item
+{
+    color: rgb(123, 198, 230) ;
+    font-size: 1.2rem;
+    font-family: "Momo Trust Display", sans-serif;
+    list-style: none;
+    transition: 1s ease-in-out;
+}
+.item:hover
+{
+    transform: scale(1.2);
+}
+p
+{
+    padding: 0;
+    margin:0;
+}
+main{
+      font-family: "Source Sans 3", sans-serif;
+    color: grey;
+    text-align: start;
+}
+.hero
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0;
+}
+.right
+{
+    
+    flex-basis: 40%;
+}
+.left
+{   padding: 90px;
+    flex-basis: 60%;
+}
+header
+{
+    font-size: 1.1rem;
+    font-family: "Source Sans 3", sans-serif;
+    text-align: start;
+}
+.head1
+{
+    color:rgb(0, 183, 255)
+}
+.head2
+{
+    color:rgb(27, 43, 63);
+}
+
+button
+{
+    border: 0px;
+    padding: 20px;
+    border-radius: 20px;
+    color: White;
+    background-color:rgb(0, 157, 255) ;
+    transition: 1s ease-in-out;
+}
+button:hover
+{
+    transform: scale(1.1);
+}
